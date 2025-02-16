@@ -8,6 +8,8 @@ This project is done as part of Smolijames 8hrs React.Js Tutorial and is the sec
 
 -Working with APIs  
 -Caching external information so that PokeAPI servers don't get DDOSed  
+-Implementing a search bar
+-Working with JSON objects
 
 ## FRAMEWORKS AND OTHER RESOURCES USED IN THIS PROJECT:
 
@@ -23,4 +25,4 @@ PokeAPI - https://pokeapi.co/
 
 This app has been deployed at https://pokedex-by-hami.netlify.app/  
 
-You can checck it out there. Enjoy :)
+You can check it out there. Enjoy :)
