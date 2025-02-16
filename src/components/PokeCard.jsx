@@ -1,7 +1,7 @@
 // This is what will be returned if the pokemon from sidenav is selected. It will hold all info about the selcted pokemon
 
 import { useEffect, useState } from "react";
-import { first151Pokemon, getFullPokedexNumber } from "../utils";
+import { getFullPokedexNumber, getPokedexNumber } from "../utils";
 import TypeCard from "./TypeCard";
 import Modal from "./Modal";
 
@@ -54,7 +54,7 @@ export default function PokeCard(props){
             const description = move_data?.flavor_text_entries.filter
             (val => {
                 return val.version_group.name = 'firered-leafgreen';
-            })[0]?.flavor_text
+            })[0]?.flavor_text;
 
             const skill_data = {
                 name: move,
@@ -73,7 +73,7 @@ export default function PokeCard(props){
 
     useEffect(()=>{
         // if loading, exit 
-        if(loading || !localStorage || data){return}
+        if(loading || !localStorage){return}
         // check if the selected pokemon info is available in the cache. This is done in 3 steps
         // 1. define the cache
         console.log('Defining pokedex cache');
@@ -96,7 +96,7 @@ export default function PokeCard(props){
                 // Fetching the data
                 console.log('Fetching pokemon from PokeAPI');
                 const base_url = 'https://pokeapi.co/api/v2/';
-                const suffix = 'pokemon/' + first151Pokemon[selected_pokemon];
+                const suffix = 'pokemon/' + getPokedexNumber(selected_pokemon);
                 const final_url = base_url + suffix;
                 const res = await fetch(final_url);
                 // console.log('res='+res);
