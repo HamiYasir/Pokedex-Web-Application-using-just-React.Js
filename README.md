@@ -1,8 +1,8 @@
 # ABOUT THIS PROJECT
 
-This is a web app for implementing a Pokédex Web Application that will list all 151 original pokémon. I am developing this project to build my grasp on React.Js.
+This is a web app for implementing a Pokédex Web Application that will list all 151 original pokémon from fire red/ leaf green. I am developing this project to build my grasp on React.Js.
 
-This project is done as part of Smolijames 8hrs React.Js Tutorial and is second one out of the 3 projects that I will be developing for this course.
+This project is done as part of Smolijames 8hrs React.Js Tutorial and is the second one out of the three projects that I will be developing for this course.
 
 ## THINGS I WILL BE LEARNING FROM THIS PROJECT:
 
@@ -19,11 +19,8 @@ Vite - https://v3.vitejs.dev/guide/
 Netlify - https://www.netlify.com/  
 PokeAPI - https://pokeapi.co/  
 
-## React + Vite
+### DEPLOYMENT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app has been deployed at https://pokedex-by-hami.netlify.app/  
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can checck it out there. Enjoy :)
