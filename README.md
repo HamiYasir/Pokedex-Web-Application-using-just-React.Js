@@ -2,8 +2,6 @@
 
 This is a web app for implementing a Pokédex Web Application that will list all 151 original pokémon from fire red/ leaf green. I am developing this project to build my grasp on React.Js.
 
-This project is done as part of Smolijames 8hrs React.Js Tutorial and is the second one out of the three projects that I will be developing for this course.
-
 ## THINGS I WILL BE LEARNING FROM THIS PROJECT:
 
 - Working with APIs  
