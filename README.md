@@ -6,20 +6,20 @@ This project is done as part of Smolijames 8hrs React.Js Tutorial and is the sec
 
 ## THINGS I WILL BE LEARNING FROM THIS PROJECT:
 
--Working with APIs  
--Caching external information so that PokeAPI servers don't get DDOSed  
--Implementing a search bar
--Working with JSON objects
+- Working with APIs  
+- Caching external information so that PokeAPI servers don't get DDOSed  
+- Implementing a search bar
+- Working with JSON objects
 
 ## FRAMEWORKS AND OTHER RESOURCES USED IN THIS PROJECT:
 
-FontAwesome CDN - https://cdnjs.com/libraries/font-awesome  
-FontAwesome Icons - https://www.fontawesome.com  
-FantaCSS - https://www.fantacss.smoljames.com  
-NodeJS - https://nodejs.org/en/download  
-Vite - https://v3.vitejs.dev/guide/  
-Netlify - https://www.netlify.com/  
-PokeAPI - https://pokeapi.co/  
+- FontAwesome CDN - https://cdnjs.com/libraries/font-awesome  
+- FontAwesome Icons - https://www.fontawesome.com  
+- FantaCSS - https://www.fantacss.smoljames.com  
+- NodeJS - https://nodejs.org/en/download  
+- Vite - https://v3.vitejs.dev/guide/  
+- Netlify - https://www.netlify.com/  
+- PokeAPI - https://pokeapi.co/  
 
 ### DEPLOYMENT
 
